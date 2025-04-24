@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinations_task</title>
+    <style>
+    p,img,h2{
+            display: none;
+        }
+    .Container1 h1:hover ~ p,
+    .Container1 h1:hover ~ h2,
+    .Container1 h1:hover ~ img{
+        display:block;
+    }
+    
+    
+
+    </style>
+
+</head>
+<body>
+    <ol type="I">
+    <div class="Container1">
+        <li><h1>Descendent_selector</h1>
+        <img src="./descendnt_code.png" alt="Code">
+        <img src="./descendent_output.png" alt="Output">
+        <h2>Descendent_selector</h2>
+        <p>A descendant selector in CSS is any selector with white space between two selectors without a combinator. 
+            Here's some examples: ul li { } header h2 { } footer a { } .module div { } #info-toggle span { } div dl dt a { } Take ul li { } for example. It means “any list item that is a descendant of an unordered list.”</p>
+        </li>
+    </div>
+    <div class="Container1">
+        <li><h1>Child_selector</h1>
+        <img src="./child_code.png" alt="Code">
+        <img src="./child_output.png" alt="Output">
+        <h2>Child Selector</h2>
+        <p>The child combinator ( > ) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first. Elements matched by the second selector must be the immediate children of the elements matched by the first selector</p>
+        </li>
+    </div>
+    <div class="Container1">
+        <li><h1>Adjacent sibling selector</h1>
+        <img src="./adjacent_sibling_selector_code.png" alt="Code">
+        <img src="./adjacent_sibling_selector_output.png" alt="Output">
+        <h2>Adjacent sibling selector</h2>
+        <p>The adjacent sibling selector in CSS, represented by the plus sign (+), targets an element that directly follows another element within the same parent element. This selector allows for precise styling of elements based on their immediate position in the HTML structure, offering a way to apply styles to specific elements without relying on additional classes or IDs. </p>
+        </li>
+    </div>
+    <div class="Container1">
+        <li><h1>General sibling selector</h1>
+        <img src="./general_adjacent_selector_code.png" alt="Code">
+        <img src="./general_adjacent_selector_output.png" alt="Output">
+        <h2>General Sibling Selector</h2>
+        <p>The general sibling selector (~) in CSS selects all elements that are siblings of a specified element and share the same parent, regardless of whether they are immediately adjacent or not. Unlike the adjacent sibling selector (+), which only targets the immediate sibling, the general sibling selector affects all subsequent siblings within the same parent. </p>
+        </li>
+    </div>
+
+    
+</ol>
+</body>
+</html>

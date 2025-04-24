@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Adjacent_sibling_Selector</title>
+    <style>
+        .Container2 +h1{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container1">
+        <h1>This is Descendent Selector---1</h1>
+        <h1>Present in container1</h1>
+        <div class="Container2">
+            <h1>This is Descendent selector---2</h1>
+            <h1>Present in container2</h1>
+        </div>
+        <h1>This is Immediate h1 tag after Container2</h1>
+        <h1>This is next after h1 tag after container2</h1>
+    </div>
+</body>
+</html>
